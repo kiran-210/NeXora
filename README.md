@@ -37,9 +37,6 @@ liquidated to keep the protocol solvent.
 | XLM (native asset) | `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC` | [View Contract](https://stellar.expert/explorer/testnet/contract/CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC) |
 | Reflector oracle | `CCYOZJCOPG34LLQQ7N24YXBM7LL62R7ONMZ3G6WZAAYPB5OYKOMJRN63` | [View Contract](https://stellar.expert/explorer/testnet/contract/CCYOZJCOPG34LLQQ7N24YXBM7LL62R7ONMZ3G6WZAAYPB5OYKOMJRN63) |
 
-Both NeXora contracts were deployed from the same identity,
-[`GCCE4BU44XN5SOD4XWPQREOFOMHBTJSXBQIKVSP3SVDTL2YTK4442IS3`](https://stellar.expert/explorer/testnet/account/GCCE4BU44XN5SOD4XWPQREOFOMHBTJSXBQIKVSP3SVDTL2YTK4442IS3).
-
 Read the live pool state yourself:
 
 ```bash
