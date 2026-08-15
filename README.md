@@ -23,6 +23,10 @@ liquidated to keep the protocol solvent.
 
 ---
 
+## Demo Video : [youtube](https://youtu.be/2et_6l7q1q8?si=D9zTLazWmCWWabvS)
+## Live Demo : [Vercel]()
+## Feedback Sheet: [Google Sheet](https://docs.google.com/spreadsheets/d/1Lwca4hJAdGdkM0qnDDy-1FXYDsAZhOhMr_H1QmYMzFU/edit?usp=drivesdk)
+
 ## Live contract addresses (Testnet)
 
 | Contract | Address | Explorer |
