@@ -1,0 +1,4 @@
+# Some Windows setups can't reach the certificate revocation server; skipping
+# the check lets cargo fetch crates from crates.io. Harmless on Linux/macOS.
+[http]
+check-revoke = false
