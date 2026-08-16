@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* ============================================================
+   NeXora design system — dark, premium fintech
+   Indigo/violet = primary · Green = healthy · Red = danger · Orange = attention
+   ============================================================ */
+:root {
+  --bg: #0a0d16;
+  --bg-elev: #0f1420;
+  --card: #141a29;
+  --card-hover: #1a2233;
+  --border: #232c40;
+  --border-strong: #303a54;
+
+  --text: #eef1fa;
+  --text-dim: #97a2bd;
+  --text-faint: #626d89;
+
+  --accent: #6366f1; /* indigo-500 */
+  --accent-strong: #818cf8; /* indigo-400, lighter for hover on dark */
+  --accent-soft: rgba(99, 102, 241, 0.14);
+
+  --success: #34d399;
+  --success-soft: rgba(52, 211, 153, 0.12);
+  --danger: #fb7185;
+  --danger-soft: rgba(251, 113, 133, 0.12);
+  --warn: #fbbf24;
+  --warn-soft: rgba(251, 191, 36, 0.12);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.45);
+  --shadow-blue: 0 8px 28px rgba(99, 102, 241, 0.35);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-dim: var(--text-dim);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warn: var(--warn);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.shadow-card {
+  box-shadow: var(--shadow);
+}
+.shadow-card-lg {
+  box-shadow: var(--shadow-lg);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle grid backdrop used on marketing sections */
+.grid-backdrop {
+  background-image: linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
