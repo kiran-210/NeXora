@@ -1,0 +1,29 @@
+# Rust / Soroban
+/target
+**/target
+**/test_snapshots/
+# Cargo.lock is committed on purpose: it pins ed25519-dalek to 2.2.0 so the
+# Soroban test/host build is reproducible in CI.
+
+# Node / Next.js
+node_modules
+.next
+out
+.vercel
+npm-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env*.local
+
+# Seed script output — holds testnet private keys, never commit
+frontend/nexora-users.json
+frontend/nexora-users-quick.json
+frontend/scripts/_seed-quick.mjs
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode
